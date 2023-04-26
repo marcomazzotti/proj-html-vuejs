@@ -1,14 +1,17 @@
 <script>
-export default {
-  data() {
-    return {
+import AppJumbo from './AppJumbo.vue';
 
-    }
-  }
+export default {
+    data() {
+        return {};
+    },
+    components: { AppJumbo }
 }
 </script>
 
-<template></template>
+<template>
+  <AppJumbo/>
+</template>
 
 <style lang="scss">
 
