@@ -12,35 +12,32 @@ export default {
     <div class="container">
       <div class="card-wrapper d-flex justify-content-between">
         <div class="ms-card">
-          <img src="../assets/images/service6-2x.jpg" alt="">
-            <div class="text">
-              <i class="arrow fa-solid fa-chevron-up"></i>
-              <i class="arrow fa-solid fa-chevron-up"></i>
-              <i class="arrow fa-solid fa-chevron-up"></i>
-              <h5>Crossfit workout</h5>
-              <p>Push your limits</p>
-            </div>
+          <div class="text">
+            <i class="arrow fa-solid fa-chevron-up"></i>
+            <i class="arrow fa-solid fa-chevron-up"></i>
+            <i class="arrow fa-solid fa-chevron-up"></i>
+            <h5>Crossfit workout</h5>
+            <p>Push your limits</p>
+          </div>
         </div>
-        <div class="ms-card">
-            <img src="../assets/images/box1-2x.jpg" alt="">
-              <div class="text">
-                <i class="arrow fa-solid fa-chevron-up"></i>
-                <i class="arrow fa-solid fa-chevron-up"></i>
-                <i class="arrow fa-solid fa-chevron-up"></i>
-                <h5>New gym apparel</h5>
-                <p>Look good, feel good</p>
-              </div>
+        <div class="ms-card2">
+          <div class="text">
+            <i class="arrow fa-solid fa-chevron-up"></i>
+            <i class="arrow fa-solid fa-chevron-up"></i>
+            <i class="arrow fa-solid fa-chevron-up"></i>
+            <h5>New gym apparel</h5>
+            <p>Look good, feel good</p>
           </div>
-          <div class="ms-card">
-            <img src="../assets/images/box3-2x.jpg" alt="">
-              <div class="text">
-                <i class="arrow fa-solid fa-chevron-up"></i>
-                <i class="arrow fa-solid fa-chevron-up"></i>
-                <i class="arrow fa-solid fa-chevron-up"></i>
-                <h5>Team training</h5>
-                <p>Find a partner</p>
-              </div>
+        </div>
+        <div class="ms-card3">
+          <div class="text">
+            <i class="arrow fa-solid fa-chevron-up"></i>
+            <i class="arrow fa-solid fa-chevron-up"></i>
+            <i class="arrow fa-solid fa-chevron-up"></i>
+            <h5>Team training</h5>
+            <p>Find a partner</p>
           </div>
+        </div>
       </div>
       <div class="quote text-center px-5">
         <h3>"How you respond to the challenge in the second half will determine what you become after the game, whether you are a winner or a loser"</h3>
@@ -62,32 +59,37 @@ export default {
   .wrapper{
     background: rgb(15,38,222);
     background: linear-gradient(125deg, blue 0%, red 100%);
-    min-height: 400px;
-    margin-top: -70px;
     padding-bottom: 6rem;
     color: white;
+    margin-top: -70px;
     .ms-card{
-      margin-bottom: 80px;
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 35%, rgba(0, 0, 0, 0)), url("../assets/images/service6-2x.jpg");
+      background-size: cover;
+    }
+    .ms-card2{
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 35%, rgba(0, 0, 0, 0)), url("../assets/images/box1-2x.jpg");
+      background-size: cover;
+    }
+    .ms-card3{
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 35%, rgba(0, 0, 0, 0)), url("../assets/images/box3-2x.jpg");
+      background-size: cover;
+    }
+    .ms-card, .ms-card2, .ms-card3{
       width: calc(100% / 3 - 40px);
-      // border: 1px solid black;
+      margin-bottom: 4rem;
+      height: 400px;
+      border-radius: 10px 10px 30px 10px;
       position: relative;
-      img{
-        max-width: 100%;
-        border-radius: 10px 10px 30px 10px;
-      }
-      h5, i{
-        color: white;
-      }
-      p{
-        color: yellow;
-      }
-      i{
-        margin: -2px;
-      }
       .text{
         position: absolute;
-        bottom: 30px;
+        bottom: 10px;
         left: 30px;
+        i{
+          margin: -2px;
+        }
+        p{
+          color: yellow;
+        }
       }
     }
     .quote{

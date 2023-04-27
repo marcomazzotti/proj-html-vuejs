@@ -50,6 +50,9 @@ export default {
       .active{
         color: white;
       }
+      li:hover{
+        color: white;
+      }
     }
     span{
       background-color: yellow;

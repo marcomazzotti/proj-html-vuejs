@@ -34,7 +34,7 @@ export default {
   .wrapper{
     padding: 2rem 0 10rem 0;
     color: white;
-    background-image: url("../assets/images/slider82x-scaled.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0)),url("../assets/images/slider82x-scaled.jpg");
     background-size: cover;
     position: relative;
     // &:before{

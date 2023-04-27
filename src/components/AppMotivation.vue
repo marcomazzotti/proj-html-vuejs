@@ -24,7 +24,7 @@ export default{
 
 <style lang="scss" scoped>
   .wrapper{
-    background-image: url("../assets/images/banner2-2x.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 35%, rgba(0, 0, 0, 0)), url("../assets/images/banner2-2x.jpg");
     background-size: cover;
     color: white;
     padding: 7rem 0;

@@ -21,14 +21,14 @@ export default{
         <input type="text" placeholder="Insert your email ... *">
         <button>Subscribe</button>
       </div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt magnam distinctio in nihil ut laboriosam ratione sint iure reiciendis mollitia, molestiae odio facilis porro architecto itaque. Qui nulla deserunt voluptas.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt magnam distinctio in nihil ut laboriosam ratione sint iure.</p>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
   .wrapper{
-    background-image: url("../assets/images/banner1-2x.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.0)), url("../assets/images/banner1-2x.jpg");
     background-size: cover;
     color: white;
     padding: 4rem 0;
