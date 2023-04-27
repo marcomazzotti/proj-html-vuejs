@@ -1,6 +1,9 @@
 <script>
 export default {
   name: "AppHeader",
+  props: {
+    headerMenu: Array
+  },
   data() {
     return {
       
@@ -17,12 +20,9 @@ export default {
       </div>
       <div class="header-right d-flex align-items-center">
         <ul class="d-flex">
-          <li class="active"><a href="">Home</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Videos</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Store</a></li>
+          <li v-for="(element, index) in headerMenu" :key="index" :class="element.current ? 'active' : ''">
+            {{ element.text }}
+          </li>
         </ul>
         <span>new</span>
         <button>Schedule a workout</button>
@@ -42,20 +42,13 @@ export default {
       color: grey;
       gap: 2rem;
       margin: 0 !important;
-      .active{
-        color: white;
-      }
-      a{
-        color: inherit;
-        text-decoration: none;
-        &:hover{
-          color: white !important;
-        }
-      }
       .new{
         background-color: yellow;
         padding: 0.5rem 0.3rem 0.3rem 0.3rem;
         color: black;
+      }
+      .active{
+        color: white;
       }
     }
     span{
