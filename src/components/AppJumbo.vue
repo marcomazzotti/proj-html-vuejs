@@ -30,24 +30,22 @@ export default {
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .wrapper{
     padding: 2rem 0 10rem 0;
     color: white;
     background-image: url("../assets/images/slider82x-scaled.jpg");
     background-size: cover;
     position: relative;
-    z-index: -2;
-    &:before{
-      content: "";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
-      background: linear-gradient(to left, transparent 0%, transparent 50%, black 67%, transparent 100%);
-    }
+    // &:before{
+    //   content: "";
+    //   position: absolute;
+    //   top: 0;
+    //   right: 0;
+    //   bottom: 0;
+    //   left: 0;
+    //   background: linear-gradient(to left, transparent 0%, transparent 50%, black 67%, transparent 100%);
+    // }
     .arrow{
       color: yellow;
       margin: -2px;
@@ -81,6 +79,7 @@ export default {
       position: absolute;
       top: 30%;
       right: 25%;
+      cursor: pointer;
     }
     .demos, .on-sale{
       height: 80px;
