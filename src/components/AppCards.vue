@@ -61,22 +61,28 @@ export default {
     background: linear-gradient(125deg, blue 0%, red 100%);
     padding-bottom: 6rem;
     color: white;
-    margin-top: -70px;
+    position: relative;
     .ms-card{
       background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 35%, rgba(0, 0, 0, 0)), url("../assets/images/service6-2x.jpg");
       background-size: cover;
+      position: absolute;
+      top: -80px;
     }
     .ms-card2{
       background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 35%, rgba(0, 0, 0, 0)), url("../assets/images/box1-2x.jpg");
       background-size: cover;
+      position: absolute;
+      top: -80px;
     }
     .ms-card3{
       background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 35%, rgba(0, 0, 0, 0)), url("../assets/images/box3-2x.jpg");
       background-size: cover;
+      position: absolute;
+      top: -80px;
     }
     .ms-card, .ms-card2, .ms-card3{
       width: calc(100% / 3 - 40px);
-      margin-bottom: 4rem;
+      margin-bottom: 2rem;
       height: 400px;
       border-radius: 10px 10px 30px 10px;
       position: relative;

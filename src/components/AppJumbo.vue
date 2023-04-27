@@ -32,7 +32,7 @@ export default {
 
 <style lang="scss" scoped>
   .wrapper{
-    padding: 2rem 0 10rem 0;
+    padding: 2rem 0 12rem 0;
     color: white;
     background: linear-gradient(to right, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0)),url("../assets/images/slider82x-scaled.jpg");
     background-size: cover;
@@ -67,7 +67,7 @@ export default {
       text-align: center;
       line-height: 70px;
       position: absolute;
-      top: 30%;
+      top: 25%;
       right: 25%;
       cursor: pointer;
     }
