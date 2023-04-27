@@ -36,16 +36,6 @@ export default {
     color: white;
     background: linear-gradient(to right, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0)),url("../assets/images/slider82x-scaled.jpg");
     background-size: cover;
-    position: relative;
-    // &:before{
-    //   content: "";
-    //   position: absolute;
-    //   top: 0;
-    //   right: 0;
-    //   bottom: 0;
-    //   left: 0;
-    //   background: linear-gradient(to left, transparent 0%, transparent 50%, black 67%, transparent 100%);
-    // }
     .arrow{
       color: yellow;
       margin: -2px;

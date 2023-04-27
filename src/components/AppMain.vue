@@ -6,12 +6,14 @@ import AppMailingList from './AppMailingList.vue';
 import AppFeatures from './AppFeatures.vue';
 import AppArticles from './AppArticles.vue';
 import AppMotivation from './AppMotivation.vue';
+import AppSponsor from './AppSponsor.vue';
+import AppCrossfit from './AppCrossfit.vue';
 
 export default {
     data() {
         return {};
     },
-    components: { AppJumbo, AppCards, AppHealth, AppMailingList, AppFeatures, AppArticles, AppMotivation }
+    components: { AppJumbo, AppCards, AppHealth, AppMailingList, AppFeatures, AppArticles, AppMotivation, AppSponsor, AppCrossfit }
 }
 </script>
 
@@ -23,6 +25,8 @@ export default {
   <AppFeatures/>
   <AppArticles/>
   <AppMotivation/>
+  <AppSponsor/>
+  <AppCrossfit/>
 </template>
 
 <style lang="scss">
