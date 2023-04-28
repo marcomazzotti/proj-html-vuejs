@@ -61,10 +61,12 @@ export default{
 </template>
 
 <style lang="scss" scoped>
+@import "../styles/general.scss";
+@import "../styles/variables";
   .ms-card{
     width: calc(100% / 4 - 60px);
     i{
-      color: #4154ff;
+      color: $main-blue;
       margin: -2px;
     }
     p{

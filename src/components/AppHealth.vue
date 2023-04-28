@@ -69,7 +69,8 @@ export default{
 </template>
 
 <style lang="scss" scoped>
-@import "../general.scss";
+@import "../styles/general.scss";
+@import "../styles/variables";
   .col-left{
     width: 40%;
     margin-top: -30px;
@@ -82,7 +83,7 @@ export default{
       height: 70px;
       width: 70px;
       background-color: white;
-      color: #4154fe;
+      color: $main-blue;
       border-radius: 50%;
       text-align: center;
       line-height: 70px;
@@ -117,7 +118,7 @@ export default{
       color: white;
       margin-top: 2rem;
       &:hover{
-        background-color: #4154fe;
+        background-color: $main-blue;
       }
     }
     .info{
@@ -132,8 +133,8 @@ export default{
         font-size: 0.8rem;
         border: 1px solid red;
         &:hover{
-          background-color: #4154fe;
-          border: 1px solid #4154fe;;
+          background-color: $main-blue;
+          border: 1px solid $main-blue;
         }
       }
       .subscribers{
@@ -168,7 +169,7 @@ export default{
       height: 50px;
       width: 50px;
       background-color: white;
-      color: #4154fe;
+      color: $main-blue;
       border-radius: 50%;
       text-align: center;
       line-height: 50px;
@@ -188,7 +189,7 @@ export default{
       font-size: 1.2rem;
     }
     .subtitle{
-      color: blue;
+      color: $main-blue;
       font-size: 0.8rem;
     }
   }

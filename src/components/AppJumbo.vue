@@ -11,11 +11,11 @@ export default {
       <div class="container">
         <p class="red">Certified fitness professional</p>
         <h1>Take control of your health</h1>
-        <i class="arrow fa-solid fa-chevron-up"></i>
+        <i class="arrow fa-solid fa-chevron-up my-4"></i>
         <i class="arrow fa-solid fa-chevron-up"></i>
         <i class="arrow fa-solid fa-chevron-up"></i>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <button><i class="fa-brands fa-youtube"></i>  Visit my YouTube channel</button>
+        <button class="my-3"><i class="fa-brands fa-youtube"></i>  Visit my YouTube channel</button>
         <button class="buy">Buy Avada today  <i class="fa-solid fa-arrow-right"></i></button>
         <i class="fa-solid fa-play player"></i>
         <div class="demos">
@@ -31,6 +31,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@import "../styles/general.scss";
+@import "../styles/variables";
   .wrapper{
     padding: 2rem 0 12rem 0;
     color: white;
@@ -49,8 +51,8 @@ export default {
     button{
       border: none;
       border-radius: 50px;
-      padding: 0.5rem 1.5rem;
-      background-color: #4154fe;
+      padding: 1rem 2rem;
+      background-color: $main-blue;
       color: white;
       margin-right: 1rem;
       &:hover{

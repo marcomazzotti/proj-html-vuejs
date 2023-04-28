@@ -27,6 +27,8 @@ export default{
 </template>
 
 <style lang="scss" scoped>
+@import "../styles/general.scss";
+@import "../styles/variables";
   .wrapper{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.0)), url("../assets/images/banner1-2x.jpg");
     background-size: cover;
@@ -53,11 +55,11 @@ export default{
         padding: 0.7rem;
     }
     button{
-      background-color: #4154ff;
+      background-color: $main-blue;
       color: white;
       padding: 0.5rem 4rem;
       border-radius: 20px;
-      border: 1px solid #4154ff;
+      border: 1px solid $main-blue;
       margin-left: 2rem;
     }
   }

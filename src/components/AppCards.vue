@@ -16,7 +16,7 @@ export default {
             <i class="arrow fa-solid fa-chevron-up"></i>
             <i class="arrow fa-solid fa-chevron-up"></i>
             <i class="arrow fa-solid fa-chevron-up"></i>
-            <h5>Crossfit workout</h5>
+            <h5 class="mt-2">Crossfit workout</h5>
             <p>Push your limits</p>
           </div>
         </div>
@@ -25,7 +25,7 @@ export default {
             <i class="arrow fa-solid fa-chevron-up"></i>
             <i class="arrow fa-solid fa-chevron-up"></i>
             <i class="arrow fa-solid fa-chevron-up"></i>
-            <h5>New gym apparel</h5>
+            <h5 class="mt-2">New gym apparel</h5>
             <p>Look good, feel good</p>
           </div>
         </div>
@@ -34,7 +34,7 @@ export default {
             <i class="arrow fa-solid fa-chevron-up"></i>
             <i class="arrow fa-solid fa-chevron-up"></i>
             <i class="arrow fa-solid fa-chevron-up"></i>
-            <h5>Team training</h5>
+            <h5 class="mt-2">Team training</h5>
             <p>Find a partner</p>
           </div>
         </div>
@@ -56,6 +56,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@import "../styles/general.scss";
+@import "../styles/variables";
   .wrapper{
     background: rgb(15,38,222);
     background: linear-gradient(125deg, blue 0%, red 100%);

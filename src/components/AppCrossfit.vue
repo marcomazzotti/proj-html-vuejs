@@ -19,6 +19,8 @@ export default{
 </template>
 
 <style lang="scss" scoped>
+@import "../styles/general.scss";
+@import "../styles/variables";
 .wrapper{
   padding: 8rem 0;
   background: linear-gradient(125deg, rgba(0, 0, 255, 0.5) 0%, rgba(255, 0, 0, 0.5) 100%), url(../assets/images/banner14-2x.jpg);
@@ -29,7 +31,7 @@ export default{
   height: 70px;
   width: 70px;
   background-color: white;
-  color: #4154fe;
+  color: $main-blue;
   border-radius: 50%;
   text-align: center;
   line-height: 70px;

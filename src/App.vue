@@ -56,5 +56,6 @@ import AppMain from './components/AppMain.vue';
 </template>
 
 <style lang="scss">
-@use "./general.scss"
+@use "./styles/general.scss";
+@use "./styles/variables"
 </style>

@@ -36,9 +36,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@import "../styles/general.scss";
+@import "../styles/variables";
   .container{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding: 5rem 0;
     .ms-card{
       width: calc(100% / 3 - 40px);
       cursor: pointer;
@@ -48,12 +49,10 @@ export default {
       }
       .name{
         font-weight: 600;
-        margin-bottom: 0;
       }
       .subtitle{
         font-weight: 300;
         font-size: 0.8rem;
-        margin-top: 0.3rem;
       }
     }
   }

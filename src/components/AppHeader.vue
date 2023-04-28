@@ -33,7 +33,10 @@ export default {
   </header>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+@import "../styles/general.scss";
+@import "../styles/variables";
+
   header{
     background-color: black;
     height: 100px;
@@ -65,10 +68,10 @@ export default {
       border: none;
       border-radius: 50px;
       padding: 0.5rem 1.5rem;
-      background-color: #4154fe;
+      background-color: $main-blue;
       color: white;
       &:hover{
-        background-color: #ec5a57 !important;
+        background-color: red !important;
       }
     }
     i{

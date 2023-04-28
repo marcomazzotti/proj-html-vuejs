@@ -41,14 +41,15 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@import "../styles/general.scss";
+@import "../styles/variables";
 .wrapper{
   background-color: black;
   color: white;
   padding: 4rem;
   .ms-card{
     width: calc(100% / 3 - 40px);
-    padding: 2rem;
-    border: 3px solid #4154ff;
+    border: 3px solid $main-blue;
     padding: 4.5rem 2rem;
     .main-img{
       font-size: 4rem;

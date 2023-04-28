@@ -14,7 +14,7 @@ export default {
 
 <template>
 <footer>
-  <div class="container d-flex justify-content-between">
+  <div class="container d-flex justify-content-between align-items-start">
     <div class="left text-center">
       <ul>
         <li><a href=""><img src="../assets/images/logo-200x34.png" alt=""></a></li>
@@ -38,7 +38,7 @@ export default {
       </ul>
     </div>
     <div class="right text-center">
-      <ul class="text-center">
+      <ul>
         <li><h6>CONTACT INFORMATIONS</h6></li>
         <li v-for="(item, index) in footerRight" :key="index">
           <span>{{ item }}</span>
@@ -49,21 +49,26 @@ export default {
 </footer>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+@import "../styles/general.scss";
+@import "../styles/variables";
+
   footer{
     background-color: black;
     min-height: 500px;
     padding: 6rem 0;
     color: white;
-    .left{
+    .left, .center, .right{
       width: calc(100% / 3);
-      margin: 0 20px;
       ul{
+        padding: 0;
         list-style-type: none;
         li{
-          padding-bottom: 1rem; 
+          padding-bottom: 1rem;
         }
       }
+    }
+    .left{
       p{
         color: grey;
         margin: 2rem 0;
@@ -77,28 +82,8 @@ export default {
         margin: 0 0 0 2rem;
       }
     }
-    .center{
-      width: calc(100% / 3);
-      ul{
-        list-style-type: none;
-        padding-top: 0.5rem;
-        li{
-          padding-bottom: 1rem; 
-          i{
-            margin-right: 0.5rem;
-          }
-        }
-      }
-    }
-    .right{
-      width: calc(100% / 3);
-      ul{
-        list-style-type: none;
-        padding-top: 0.5rem;
-        li{
-          padding-bottom: 1rem; 
-        }
-      }
+    .center, .right{
+      padding-top: 0.5rem;
     }
 }
 </style>
