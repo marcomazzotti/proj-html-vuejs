@@ -19,7 +19,7 @@ export default {
         <button class="buy">Buy Avada today  <i class="fa-solid fa-arrow-right"></i></button>
         <i class="fa-solid fa-play player"></i>
         <div class="demos">
-          <span class="d-block">Icon</span>
+          <p class="d-block"><i class="fa-solid fa-book-open"></i></p>
           <span>Demos</span>
         </div>
         <div class="on-sale">
@@ -88,22 +88,30 @@ export default {
       height: 80px;
       width: 80px;
       background-color: white;
-      color: grey;
+      color: rgba(0, 0, 0, 1);
       border-radius: 10px;
       text-align: center;
       padding: 0.3rem;
       position: absolute;
+      i{
+        color: black;
+      }
     }
     .demos{
-      top: 40px;
+      top: 170px;
       right: 10px;
+      p{
+        font-size: 2rem;
+        margin-bottom: 0;
+      }
     }
     .on-sale{
-      top: 130px;
+      top: 260px;
       right: 10px;
       p{
         color: green;
         font-size: 2rem;
+        font-weight: 500;
         margin: 0;
       }
     }
