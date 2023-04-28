@@ -16,7 +16,7 @@ export default {
   <header class="d-flex align-items-center">
     <div class="container d-flex justify-content-between align-items-center">
       <div class="header-left">
-        <img src="../assets/images/logo.png" alt="">
+        <a href=""><img src="../assets/images/logo.png" alt=""></a>
       </div>
       <div class="header-right d-flex align-items-center">
         <ul class="d-flex">

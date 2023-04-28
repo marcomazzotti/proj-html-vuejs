@@ -18,21 +18,21 @@ export default {
           <h5>Team training</h5>
           <p class="sub">Find a partner</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, magni illum commodi natus facilis, aliquid at repellat nemo nulla repudiandae aspernatur necessitatibus veniam cum! Quo corporis voluptatum aspernatur repudiandae saepe?</p>
-          <h6>Find a partner <i class="fa-solid fa-chevron-right"></i></h6>
+          <h6><a href="">Find a partner <i class="fa-solid fa-chevron-right"></i></a></h6>
         </div>
         <div class="ms-card text-center">
           <i class="fa-solid fa-dumbbell main-img"></i>
           <h5>Crossfit workout</h5>
           <p class="sub">Push your limits</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, magni illum commodi natus facilis, aliquid at repellat nemo nulla repudiandae aspernatur necessitatibus veniam cum! Quo corporis voluptatum aspernatur repudiandae saepe?</p>
-          <h6>Learn about Crossfit <i class="fa-solid fa-chevron-right"></i></h6>
+          <h6><a href="">Learn about Crossfit <i class="fa-solid fa-chevron-right"></i></a></h6>
         </div>
         <div class="ms-card text-center">
           <i class="fa-solid fa-scale-balanced main-img"></i>
           <h5>Weight loss plan</h5>
           <p class="sub">Shed those pounds</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, magni illum commodi natus facilis, aliquid at repellat nemo nulla repudiandae aspernatur necessitatibus veniam cum! Quo corporis voluptatum aspernatur repudiandae saepe?</p>
-          <h6>Schedule a workout <i class="fa-solid fa-chevron-right"></i></h6>
+          <h6><a href="">Schedule a workout <i class="fa-solid fa-chevron-right"></i></a></h6>
         </div>
       </div>
       

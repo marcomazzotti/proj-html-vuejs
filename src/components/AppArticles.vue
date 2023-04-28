@@ -13,7 +13,7 @@ export default {
   <div class="container">
     <div class="articles d-flex justify-content-between py-5">
       <h5>Latest articles</h5>
-      <h6>Read all articles <i class="fa-solid fa-chevron-right"></i></h6>
+      <h6><a href="">Read all articles <i class="fa-solid fa-chevron-right"></i></a></h6>
     </div>
     <div class="cards-container d-flex justify-content-between">
       <div class="ms-card">
@@ -41,6 +41,11 @@ export default {
     padding-bottom: 5rem;
     .ms-card{
       width: calc(100% / 3 - 40px);
+      cursor: pointer;
+      transition: transform 0.7s ease;
+      &:hover{
+        transform: scale(1.2);
+      }
       .name{
         font-weight: 600;
         margin-bottom: 0;

@@ -18,7 +18,7 @@ export default{
         <i class="arrow fa-solid fa-chevron-up"></i>
         <i class="arrow fa-solid fa-chevron-up"></i>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat optio ratione maxime incidunt obcaecati temporibus facilis inventore qui. Pariatur esse obcaecati placeat laboriosam ab ullam iste delectus, impedit blanditiis perferendis.</p>
-        <a href="">
+        <a href="" class="link">
           <span class="me-2">Visit Yoga Studio</span>
           <i class="arrow fa-solid fa-chevron-right arrow"></i>
         </a>
@@ -29,7 +29,7 @@ export default{
         <i class="arrow fa-solid fa-chevron-up"></i>
         <i class="arrow fa-solid fa-chevron-up"></i>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat optio ratione maxime incidunt obcaecati temporibus facilis inventore qui. Pariatur esse obcaecati placeat laboriosam ab ullam iste delectus, impedit blanditiis perferendis.</p>
-        <a href="">
+        <a href="" class="link">
           <span class="me-2">Join Fitness Center</span>
           <i class="arrow fa-solid fa-chevron-right arrow"></i>
         </a>
@@ -40,7 +40,7 @@ export default{
         <i class="arrow fa-solid fa-chevron-up"></i>
         <i class="arrow fa-solid fa-chevron-up"></i>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat optio ratione maxime incidunt obcaecati temporibus facilis inventore qui. Pariatur esse obcaecati placeat laboriosam ab ullam iste delectus, impedit blanditiis perferendis.</p>
-        <a href="">
+        <a href="" class="link">
           <span class="me-2">Learn about FC</span>
           <i class="arrow fa-solid fa-chevron-right arrow"></i>
         </a>
@@ -51,7 +51,7 @@ export default{
         <i class="arrow fa-solid fa-chevron-up"></i>
         <i class="arrow fa-solid fa-chevron-up"></i>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat optio ratione maxime incidunt obcaecati temporibus facilis inventore qui. Pariatur esse obcaecati placeat laboriosam ab ullam iste delectus, impedit blanditiis perferendis.</p>
-        <a href="">
+        <a href="" class="link">
           <span class="me-2">Visit Power Gym</span>
           <i class="arrow fa-solid fa-chevron-right arrow"></i>
         </a>
@@ -62,7 +62,6 @@ export default{
 
 <style lang="scss" scoped>
   .ms-card{
-    // border: 1px solid black;
     width: calc(100% / 4 - 60px);
     i{
       color: #4154ff;
@@ -80,4 +79,7 @@ export default{
       }
     }
   }
+  .link:hover{
+      color: #4154ff;
+    }
 </style>

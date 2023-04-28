@@ -53,9 +53,16 @@ export default {
       background-color: #4154fe;
       color: white;
       margin-right: 1rem;
+      &:hover{
+        background-color: red;
+      }
       &.buy{
         background-color:transparent;
         border: 1px solid grey;
+        &:hover{
+          background-color: white;
+          color: black;
+        }
       }
     }
     .player{
@@ -70,6 +77,10 @@ export default {
       top: 25%;
       right: 25%;
       cursor: pointer;
+      transition: transform 0.7s;
+      &:hover{
+        transform: scale(1.2);
+      }
     }
     .demos, .on-sale{
       height: 80px;

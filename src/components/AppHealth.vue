@@ -36,7 +36,7 @@ export default{
     <div class="container">
       <div class="playlists d-flex justify-content-between">
         <p>Featured playlists</p>
-        <p>View all videos <i class="fa-solid fa-chevron-right"></i></p>
+        <p><a href="">View all videos <i class="fa-solid fa-chevron-right"></i></a></p>
       </div>
       <div class="cards-container d-flex justify-content-between">
         <div class="ms-playlist-card">
@@ -69,6 +69,7 @@ export default{
 </template>
 
 <style lang="scss" scoped>
+@import "../general.scss";
   .col-left{
     width: 40%;
     margin-top: -30px;
@@ -89,6 +90,10 @@ export default{
       top: 45%;
       right: 45%;
       cursor: pointer;
+      transition: transform 0.7s;
+      &:hover{
+        transform: scale(1.2);
+      }
     }
   }
   .col-right{
@@ -111,6 +116,9 @@ export default{
       background-color: red;
       color: white;
       margin-top: 2rem;
+      &:hover{
+        background-color: #4154fe;
+      }
     }
     .info{
       span{
@@ -123,11 +131,19 @@ export default{
         color: white;
         font-size: 0.8rem;
         border: 1px solid red;
+        &:hover{
+          background-color: #4154fe;
+          border: 1px solid #4154fe;;
+        }
       }
       .subscribers{
         background-color: #fafafa;
         color: grey;
         border: 1px solid lightgrey;
+        &:hover{
+          background-color: #fafafa;
+          border: 1px solid lightgray;
+        }
       }
     }
   }
@@ -141,8 +157,12 @@ export default{
       width: calc(100% / 3 - 40px);
       position: relative;
       margin-bottom: 6rem;
+      transition: transform 0.7s ease;
       img{
         border-radius: 10px 10px 50px 10px;
+      }
+      &:hover{
+        transform: scale(1.2);
       }
       .play{
       height: 50px;
@@ -157,6 +177,10 @@ export default{
       right: 45%;
       cursor: pointer;
       font-size: 0.7rem;
+      transition: transform 0.7s;
+      &:hover{
+        transform: scale(1.2);
+      }
     }
     .name{
       margin-top: 2rem;

@@ -85,6 +85,10 @@ export default {
       height: 400px;
       border-radius: 10px 10px 30px 10px;
       position: relative;
+      transition: transform 0.7s ease;
+      &:hover{
+        transform: scale(1.2);
+      }
       .text{
         position: absolute;
         bottom: 10px;

@@ -14,18 +14,18 @@ export default {
 
 <template>
 <footer>
-  <div class="container d-flex">
+  <div class="container d-flex justify-content-between">
     <div class="left text-center">
       <ul>
-        <li><img src="../assets/images/logo-200x34.png" alt=""></li>
+        <li><a href=""><img src="../assets/images/logo-200x34.png" alt=""></a></li>
         <li>{{ footerLeft.text }}</li>
       </ul>
       <div class="icons">
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
       </div>
     </div>
     <div class="center text-center">
@@ -57,6 +57,7 @@ export default {
     color: white;
     .left{
       width: calc(100% / 3);
+      margin: 0 20px;
       ul{
         list-style-type: none;
         li{

@@ -44,6 +44,10 @@ export default{
         padding: 0.5rem 2rem;
         border-radius: 20px;
         color: white;
+        &:hover{
+          background-color: yellow;
+          color: black;
+        }
       }
     }
   }
