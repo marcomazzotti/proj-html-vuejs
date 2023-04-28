@@ -14,7 +14,7 @@ export default{
     <div class="container">
       <p>Join our mailing list today</p>
       <h2>Insider offers & flash sales in your inbox every week.</h2>
-      <i class="arrow fa-solid fa-chevron-up"></i>
+      <i class="arrow fa-solid fa-chevron-up my-4"></i>
       <i class="arrow fa-solid fa-chevron-up"></i>
       <i class="arrow fa-solid fa-chevron-up"></i>
       <div class="input">
@@ -41,7 +41,6 @@ export default{
     i{
       color: yellow;
       margin: -2px;
-      margin-bottom: 2rem;
     }
     input{
       width: 400px;

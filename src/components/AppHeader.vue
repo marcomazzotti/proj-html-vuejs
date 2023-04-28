@@ -20,8 +20,8 @@ export default {
       </div>
       <div class="header-right d-flex align-items-center">
         <ul class="d-flex">
-          <li v-for="(element, index) in headerMenu" :key="index" :class="element.current ? 'active' : ''">
-            {{ element.text }}
+          <li v-for="(item, index) in headerMenu" :key="index" :class="item.current ? 'active' : ''">
+            {{ item.text }}
           </li>
         </ul>
         <span>new</span>

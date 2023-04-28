@@ -82,7 +82,6 @@ export default {
     }
     .ms-card, .ms-card2, .ms-card3{
       width: calc(100% / 3 - 40px);
-      margin-bottom: 2rem;
       height: 400px;
       border-radius: 10px 10px 30px 10px;
       position: relative;
